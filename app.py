@@ -4,7 +4,7 @@ from google import genai
 
 # Initialize GenAI client
 API_KEY = st.secrets["api_key"]
-client = genai.Client(api_key="API_KEY")
+client = genai.Client(api_key=API_KEY)
 
 # List of important biochemistry topics
 biochem_topics = [
